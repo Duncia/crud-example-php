@@ -1,1 +1,1 @@
-# crud-example-php
+CRUD example with procedural PHP, basic SQL, HTML, CSS.
