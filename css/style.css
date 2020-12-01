@@ -1,0 +1,234 @@
+body {
+    margin: 0;
+    width: 100%;
+    background-color: #fff;
+    font-family: sans-serif;
+}
+
+p {
+    font-size: 15px;
+    margin: 0;
+}
+
+header {
+    text-align: center;
+    padding: 15px 10px;
+}
+
+.top {
+    display: inline-block;
+}
+
+figure {
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+.title-img img {
+    max-width: 40px;
+    line-height: 40px;
+    vertical-align: middle;
+    padding: 0px 15px;
+}
+
+h1 {
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+    font-size: 25px;
+}
+
+.top.text {
+    line-height: 40px;
+    vertical-align: middle;
+}
+
+ul {
+list-style: none;
+padding: 0;
+margin: 0;
+}
+
+.entries {
+    max-width: 800px;
+    margin: auto;
+}
+
+.singleEntry {
+    background-color: #0F2557;
+    border-radius: 10px;
+    border: 2px solid #000;
+    margin: 15px 10px;
+    padding: 10px;
+    color: #fff;
+}
+
+.singleEntry:hover {
+    background-color: #3E4A81;
+}
+
+.intro {
+    text-align: center;
+    color: #150734;
+    border: 1px solid #150734;
+    margin: 10px;
+    padding: 10px 0px;
+}
+
+.intro p {
+    font-size: 18px;
+    font-weight: 600;
+    max-width: 700px;
+    margin: auto;
+    margin-bottom: 10px;
+}
+
+.singleEntry h2 {
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.singleEntry h3 {
+    margin-bottom: 10px;
+    margin-left: 20px;
+}
+
+.singleEntry p {
+    margin-bottom: 10px;
+    white-space: pre-wrap;
+}
+
+footer {
+    padding: 20px 10px;
+    color: #0F2557;
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+}
+
+.singleEntry a {
+    color: #fff;
+}
+
+footer a {
+    color: #fff;
+    padding: 5px 10px;
+    background-color: #63BCE5;
+    border-radius: 10px;
+}
+
+footer li {
+    margin: 20px 0px;
+}
+
+/* Form CSS */
+label p {
+    font-size: 18px;
+    min-width: 100px;
+    padding: 10px;
+    display: inline-block;
+    width: 20%;
+}
+
+.textAreaPar {
+    vertical-align: top;
+    padding: 10px;
+}
+
+textarea {
+    margin-top: 10px;
+}
+
+input:focus {
+    background-color: #D6DBDF;
+}
+
+input, textarea, select {
+    display: inline-block;
+    width: 70%;
+    max-width: 396px;
+    border: none;
+    padding: 2px;
+    font-family: sans-serif;
+    -moz-box-sizing:border-box;
+    -webkit-box-sizing:border-box;
+    box-sizing:border-box;
+  }
+
+  select{
+    display: inline-block;
+    width: 70%;
+    border: none;
+    text-indent: 2px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+
+button {
+    font-size: 18px;
+    background-color: #000;
+    color: #fff;
+    padding: 5px 15px;
+    min-width: 100px;
+    border-radius: 12px;
+    text-transform: uppercase;
+    text-decoration: none;
+    border: none;
+    font-weight: 600;
+    cursor: pointer;
+    margin: 0px 10px;
+}
+
+button:focus {
+    text-decoration: none;
+    outline: none;
+}
+
+button:active {
+    text-decoration: none;
+    outline: none;
+}
+
+.formSaveBtn {
+    background-color: #23C0AD;
+    color: #000;
+}
+
+.formDeleteBtn {
+    background-color: #DC143C;
+}
+
+.buttonRow {
+    text-align: center;
+    margin: 20px;
+}
+
+.viewEntryBtn {
+    background-color: #FACC44;
+    font-size: 15px;
+    color: #000;
+}
+
+.viewEntryBtn a {
+    color: #000;
+}
+
+.errorMessage {
+    color: red;
+    background-color: #fff;
+    text-transform: uppercase;
+    font-weight: 600;
+    text-align: center;
+}
+
+@media only screen and (max-width: 630px) {
+    form {
+        text-align: center;
+    }
+}
